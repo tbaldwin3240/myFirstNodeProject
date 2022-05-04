@@ -50,7 +50,7 @@ app.get('/albums/:albumNumber', (req, res)=> {
         htmlData += `<h1>${song.name}</h1>`;
         htmlData += `<img src="${song.imgURL}" alt=" " width="500" height="500">`
         htmlData += `<h3>Year Released: ${song.publishDate}</h3>`;
-        htmlData += `<h3>${song.description}</h3>`;
+        //htmlData += `<h3>${song.description}</h3>`;
         htmlData += `<h3>${song.songTitles}</h3>`;
         res.send(htmlData);
     }else{
