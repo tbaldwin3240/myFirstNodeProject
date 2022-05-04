@@ -7,7 +7,7 @@ module.exports =
  },
  {
     albumNumber:"1",
-    name:"The Collection Daryl Coley",
+    name:"The Collection of Darly Coly",
     publishDate:"1986",
     imgURL:"https://m.media-amazon.com/images/I/41QW91855QL.jpg",
    songTitles:["I Can't Tell It All","God And God Alone", "He's Right on Time", "Real","He's Preparing Me","It Shall Be Done","He That Dwelleth","He Delivered Me", "To Live os Christ", "Sovereign","When the Music Stops","Vitory in Jesus"]
