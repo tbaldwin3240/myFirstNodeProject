@@ -51,7 +51,7 @@ app.get('/albums/:albumNumber', (req, res)=> {
         htmlData += `<img src="${song.imgURL}" alt=" " width="500" height="500">`
         htmlData += `<h3>Year Released: ${song.publishDate}</h3>`;
         //htmlData += `<h3>${song.description}</h3>`;
-        htmlData += `<h2>${song.songTitles}</h2>`;
+        htmlData += `<h3>${song.songTitles}</h3>`;
         res.send(htmlData);
     }else{
         res.send('There is no Album associated with this Number');
